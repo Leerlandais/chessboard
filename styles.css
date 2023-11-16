@@ -16,10 +16,25 @@ td{
 }
 
 tr:nth-child(even) td:nth-child(even), tr:nth-child(odd) td:nth-child(odd) {
+    background: #a68a64;
+}
+
+  tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
     background: #582f0e;
 }
-  tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
-    background: #a68a64;
+
+
+.bottom{
+    padding: 10px;
+    background: white;
+    text-align: center;
+    border: black solid;
+}
+
+.right{
+    padding: 10px;
+    background: white;
+    border: black solid;
 }
 
 h1{

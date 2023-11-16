@@ -1,7 +1,8 @@
 table{
     border-collapse: collapse;
-    margin-left: 28%;
     border: black solid;
+    margin-right: 35%;
+    float: right;
 }
 
 tr{

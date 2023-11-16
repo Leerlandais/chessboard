@@ -26,14 +26,14 @@ tr:nth-child(even) td:nth-child(even), tr:nth-child(odd) td:nth-child(odd) {
 
 .bottom{
     padding: 10px;
-    background: white;
+    background: white !important;      /* Utilisation d'importance témporaire (j'espère) - Je veux trouver une autre façon de mettre priorité aux ce 'class' */      
     text-align: center;
     border: black solid;
 }
 
 .right{
     padding: 10px;
-    background: white;
+    background: white !important;      /* Utilisation d'importance témporaire (j'espère) - Je veux trouver une autre façon de mettre priorité aux ce 'class' */ 
     border: black solid;
 }
 

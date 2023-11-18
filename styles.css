@@ -1,8 +1,9 @@
 table{
     border-collapse: collapse;
     border: black solid;
-    margin-right: 35%;
+    margin-right: 30%;
     float: right;
+    background: #83623e;
 }
 
 tr{
@@ -26,14 +27,15 @@ tr:nth-child(even) td:nth-child(even), tr:nth-child(odd) td:nth-child(odd) {
 
 .bottom{
     padding: 10px;
-    background: white !important;      /* Utilisation d'importance témporaire (j'espère) - Je veux trouver une autre façon de mettre priorité aux ce 'class' */      
+    background: #83623e !important;      /* Utilisation d'importance témporaire (j'espère) - Je veux trouver une autre façon de mettre priorité aux ce 'class' */      
     text-align: center;
     border: black solid;
+    
 }
 
 .right{
     padding: 10px;
-    background: white !important;      /* Utilisation d'importance témporaire (j'espère) - Je veux trouver une autre façon de mettre priorité aux ce 'class' */ 
+    background: #83623e !important;      /* Utilisation d'importance témporaire (j'espère) - Je veux trouver une autre façon de mettre priorité aux ce 'class' */ 
     border: black solid;
 }
 
@@ -50,3 +52,8 @@ h1{
     border: 1px solid black;
     cursor: pointer;
   }
+/*
+.square:hover{ 
+    background: black !important;
+}
+  */

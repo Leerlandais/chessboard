@@ -8,9 +8,14 @@
 </head>
 <body>
     <h1>Lee's Chessboard</h1>
+    <script>
+        function myFunction(element, color) {
+          element.style.color = color;
+        }
+        </script>
     <table>
         <tr>
-            <td class="square" id="squarea8"></td>
+            <td class="square" id="squarea8"  onclick="myFunction(this, 'red')"> red</td>
             <td class="square" id="squareb8"></td>
             <td class="square" id="squarec8"></td>
             <td class="square" id="squared8"></td>

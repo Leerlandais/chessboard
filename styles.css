@@ -43,3 +43,10 @@ h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
 }
+
+.square {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    cursor: pointer;
+  }

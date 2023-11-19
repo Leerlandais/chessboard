@@ -46,7 +46,42 @@ h1{
     font-style: italic;
 }
 
+h2{
+    text-decoration: underline;
+    font-family: cursive;
+    font-style: italic;
+}
 
+body{
+    background-color: #582f0e;
+}
+
+a{
+    color: teal;
+    font-style: italic;
+    text-decoration: none;
+}
+
+#journ{
+    background-color: #a68a64;
+    border-left: 3px solid;
+    border-right: 3px solid;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+p{
+    font-size: 24px;
+    font-family: cursive;
+}
+
+li{
+    font-size: 20px;
+    font-family: cursive;
+}
 
 .square {
     width: 30px;

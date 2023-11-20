@@ -2,7 +2,7 @@ table{
     border-collapse: collapse;
     border: black solid;
     margin-right: 30%;
-    float: right;
+    margin-left: 20%;
     background: #83623e;
 }
 
@@ -47,6 +47,7 @@ h1{
 }
 
 h2{
+    padding: 20px;
     text-decoration: underline;
     font-family: cursive;
     font-style: italic;
@@ -56,6 +57,18 @@ body{
     background-color: #582f0e;
 }
 
+footer{
+    text-align: center;
+}
+
+#copyright{  
+    transition: transform 50s ease-in-out;
+}
+
+#copyright:hover {
+    transform: rotateY(-36000deg);
+   
+}
 a{
     color: teal;
     font-style: italic;
